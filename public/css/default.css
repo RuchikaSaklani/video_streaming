@@ -50,7 +50,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-   margin: 0;
+   margin-left: 5px;
    padding: 0;
    border: 0;
    outline: 0;
@@ -149,6 +149,7 @@ body {
    font-size: 15px;
    line-height: 30px;
 	color: #838C95;
+   text-align: center;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -466,12 +467,14 @@ input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
    background: #11ABB0;
-   display: inline-block;
+   display: block;
 	text-decoration: none;
-   letter-spacing: 0;
+   letter-spacing: 1;
    color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
+   margin-top: 20px;
+   margin-left: 41%;
    border: none;
    cursor: pointer;
    height: auto;

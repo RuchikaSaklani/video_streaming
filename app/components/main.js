@@ -52,9 +52,10 @@ export default class Main extends React.Component{
     return (
       <div>
         <input type="file" id="file" onChange={this.handleFile}/>
+        <div>
         <button  onClick={this.handleClick} >Upload File</button>
         {thumb}
-
+        </div>
 
       </div>
       )

@@ -1,18 +1,8 @@
 language: node_js
-sudo: required
+sudo: false
 dist: trusty
-group: deprecated-2017Q4
-addons:
-  sonarcloud:
-    organization: "ruchikawipro-github"
-    token:
-      secure: "a62d8ffac409385843b93a450701060eac178202"
-jdk:
-  - oraclejdk8
 node_js:
   - "node"
 script:
   - "start"
   - "test"
-  - "sonar-scanner"
- 

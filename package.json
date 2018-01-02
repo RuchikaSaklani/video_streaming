@@ -4,7 +4,8 @@
   "description": "Video app",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server/bin/www"
+    "start": "node ./server/bin/www",
+    "test": "mocha"
   },
   "author": "Ruchika",
   "license": "MIT",

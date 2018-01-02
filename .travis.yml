@@ -3,6 +3,6 @@ sudo: false
 dist: trusty
 node_js:
   - "node"
-script:
+scripts:
   - "start"
   - "test"

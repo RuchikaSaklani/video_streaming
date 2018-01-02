@@ -7,7 +7,7 @@ addons:
     access_key: "3ce71427-cfbb-491e-8c11-7e487b38bb59"
     sauce_connect: true
 node_js:
-  - "node"
+  - "stable"
 scripts:
   - "start"
   - "test"

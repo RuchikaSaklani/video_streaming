@@ -2,8 +2,7 @@
 >> Download the souce code or git clone
 >>  1.>npm install
 >>  2.>npm start
->>  3.>cd server npm install
->>  4.>npm start
+>>  3.>npm test
 
 And your clean boiler plate is ready for building the application.
 1 . The index.html is in public floder

@@ -2,6 +2,12 @@ language: node_js
 sudo: false
 dist: trusty
 addons:
+  addons:
+  sonarcloud:
+    organization: "ruchikawipro-github"
+   
+jdk:
+  - oraclejdk9
   sauce_connect:
     username: "RuchikaSauceLabs"
     access_key: "3ce71427-cfbb-491e-8c11-7e487b38bb59"
@@ -11,3 +17,4 @@ node_js:
 scripts:
   - "start"
   - "test"
+  - "sonar-scanner"

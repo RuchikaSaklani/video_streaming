@@ -1,21 +1,24 @@
 language: node_js
 sudo: false
 dist: trusty
+
 node_js:
   - "stable"
-scripts:
-  - "start"
-  - "test"
-  - "sonar"
-  
-  addons:
+
+addons:
   sonarcloud:
     organization: "ruchikawipro-github"
-    token: "a62d8ffac409385843b93a450701060eac178202"   
-jdk:
-  - oraclejdk9
-  
+    token:
+      secure: "a62d8ffac409385843b93a450701060eac178202"  
   sauce_connect:
     username: "RuchikaSauceLabs"
     access_key: "3ce71427-cfbb-491e-8c11-7e487b38bb59"
     sauce_connect: true
+
+jdk:
+  - oraclejdk9
+
+scripts:
+  - "start"
+  - "test"
+  - "sonar"

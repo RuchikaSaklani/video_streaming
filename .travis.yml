@@ -5,6 +5,7 @@ addons:
   addons:
   sonarcloud:
     organization: "ruchikawipro-github"
+    token: "a62d8ffac409385843b93a450701060eac178202"
    
 jdk:
   - oraclejdk9

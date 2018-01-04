@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./server/bin/www",
     "test": "mocha",
-    "sonar-scanner": "sonar-scanner"
+    "sonar": "sonar-scanner"
   },
   "author": "Ruchika",
   "license": "MIT",
